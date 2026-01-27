@@ -1,64 +1,112 @@
-# 🐍 Python Internship – Task One (Beginner Level)
+ This repository contains all the work completed during a one-month Python Development Internship.
+It covers beginner, intermediate, and advanced-level Python concepts, progressing from core programming fundamentals to practical applications and modern Natural Language Processing (NLP) using a transformer-based language model.
 
-This repository contains the *beginner-level Python tasks* completed as part of a one-month Python internship.  
-The tasks focus on fundamental Python programming concepts such as *variables, numbers, lists, conditionals, loops, dictionaries, file handling, classes, and inheritance*.
+⸻
 
----
+🎯 Objective
 
-## 🎯 Objective
+The primary objective of this internship was to:
+	•	Build a strong foundation in Python programming
+	•	Apply theoretical concepts through hands-on coding
+	•	Develop problem-solving skills
+	•	Gain exposure to real-world Python applications and AI-driven language models
 
-To strengthen understanding of *core Python concepts* and gain hands-on experience with writing functional Python programs.  
-Interns are required to complete *five out of nine subheadings*, implementing all the programs listed under the chosen headings.
+⸻
 
----
+📚 Topics Covered
 
-## 📚 Concepts Covered
+🟢 Python Fundamentals
+	•	Variables and Data Types
+	•	Numbers and Mathematical Operations
+	•	Lists and List Operations
+	•	Conditional Statements (if, elif, else)
+	•	Looping Constructs (for loops, range)
 
-- *Variables and Data Types* – Working with integers, floats, strings, and booleans.  
-- *Numbers & Mathematical Operations* – Arithmetic operations, built-in functions, and numeric manipulations.  
-- *Lists* – Creating, indexing, slicing, modifying, and looping through lists.  
-- *If Conditions* – Decision-making using if, elif, and else statements.  
-- *For Loops* – Iterating over sequences, using range(), and nested loops.  
-- *Dictionaries* – Key-value pair storage, updating, accessing, and iterating over dictionaries.  
-- *File Handling* – Reading from and writing to files using open(), read(), write(), and context managers.  
-- *Classes & Objects* – Creating classes, initializing objects, using instance and class variables.  
-- *Inheritance* – Demonstrating single and multiple inheritance, method overriding, and super() usage.
+🟡 Core Python Concepts
+	•	Dictionaries and Key-Value Operations
+	•	File Handling (read/write using files)
+	•	Functions and Modular Programming
 
----
+🔵 Object-Oriented Programming
+	•	Classes and Objects
+	•	Constructors
+	•	Inheritance
+	•	Method Overriding
+	•	Use of super()
 
-## 🛠️ Requirements
+⸻
 
-- Python 3.x installed on your system  
-- Basic text editor or IDE (VS Code, PyCharm, or Jupyter Notebook)  
+🧩 Projects and Implementations
 
-No external libraries are required for these beginner-level tasks.
+🌐 Web Scraping (ShadowFox Website)
+	•	Extracts paragraph (<p>) content from the ShadowFox website
+	•	Implements HTTP requests and HTML parsing
+	•	Demonstrates structured data extraction using Python
 
----
+Libraries Used:
+	•	requests
+	•	beautifulsoup4
 
-## ▶️ How to Run
+⸻
 
-1. Clone or download the repository.
-2. Open a terminal or your preferred IDE.
-3. Navigate to the folder containing your chosen subheading tasks.
-4. Run the Python programs using:
+🎮 Hangman Game (Command-Line Application)
+	•	Interactive text-based Hangman game
+	•	User-defined word list
+	•	Random word selection
+	•	ASCII-art visual stages
+	•	Input validation and game logic
+	•	Win and lose conditions
 
-```bash
-python program_name.py
-# 🌐 ShadowFox Website Scraper (Python)
+This project strengthens logical thinking and control flow implementation.
 
-This is a *Python web scraping script* that extracts text content from the [ShadowFox website](https://shadowfox.in/) using requests and BeautifulSoup.  
-It retrieves all paragraph (<p>) elements from the homepage and displays them in the console.
+⸻
 
----
+🤖 NLP Project – BERT Language Model Analysis
+	•	Implementation of a pre-trained BERT (bert-base-uncased) model
+	•	Tokenization and contextual embedding generation
+	•	Semantic similarity computation using cosine similarity
+	•	Analysis of contextual meaning of ambiguous words
+	•	Batch processing of sentences
+	•	Visualization of embeddings using heatmaps
+	•	Saving and reloading embeddings
 
-## 🛠️ Requirements
+Technologies Used:
+	•	Python
+	•	PyTorch
+	•	Hugging Face Transformers
+	•	Matplotlib
+	•	Seaborn
+	•	Scikit-learn
 
-- Python 3.x
-- Libraries:
-  - requests
-  - beautifulsoup4
+⸻
 
-Install the required libraries using:
+🛠️ Requirements
+	•	Python 3.x
+	•	Recommended IDEs: VS Code, PyCharm, Jupyter Notebook
 
-```bash
-pip install requests beautifulsoup4
+Required Libraries
+pip install requests beautifulsoup4 torch transformers matplotlib seaborn scikit-learn
+▶️ How to Run
+	1.	Clone or download the repository
+	2.	Open a terminal or IDE
+	3.	Navigate to the project directory
+	4.	Run Python scripts using:
+ python filename.py
+For the BERT project, open and execute the Jupyter Notebook.
+
+⸻
+
+📌 Learning Outcomes
+	•	Solid understanding of Python programming fundamentals
+	•	Practical experience with data structures and file handling
+	•	Ability to design object-oriented programs
+	•	Hands-on experience with web scraping
+	•	Development of interactive command-line applications
+	•	Foundational knowledge of NLP and transformer-based language models
+
+⸻
+
+🏁 Conclusion
+
+This repository represents a comprehensive learning journey undertaken during the internship, starting from basic Python concepts and advancing toward AI-driven language model exploration.
+The projects collectively demonstrate progressive skill development and practical application of Python in diverse domains.
